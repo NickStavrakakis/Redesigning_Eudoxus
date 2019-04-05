@@ -1,0 +1,116 @@
+.introwrap{
+    margin: auto;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.introwrap p{
+    width: 100%;
+    display: block;
+    text-align: left;
+}
+
+.introwrap p a:link, .introwrap p a:hover, .introwrap p a:active{
+    color: #0C8CCC;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.introwrap p a:visited{
+    color: #CC7434;
+    background-color: transparent;
+    text-decoration: none;
+}
+.professorcard{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    flex: 0 0 33.333333%;
+}
+
+.professorcard a{
+    color: #0C8CCC;
+    text-decoration: none;
+}
+
+.professorcard img{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: solid;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    width: 200px;
+    height: 200px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: .2s;
+    border-width: 5px;
+    border-color: #0C8CCC;
+}
+
+@media screen and (max-width: 1366px) {
+    .professorcard{
+        width: 300px;
+        height: 230px;
+    }
+    .professorcard img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.professorcard a:hover{
+    transition: .2s;
+    color: #CC7434;
+}
+
+.professorcard a:hover img{
+    transition: .2s;
+    border-width: 5px;
+    border-color: #CC7434;
+}
+
+.professorcard a .declaration{
+    background: url("img/homepage_buttons/diloseis_button_off.png");
+    background-size: contain;
+}
+
+.professorcard a:hover .declaration{
+    background: url("img/homepage_buttons/diloseis_button_on.png");
+    background-size: contain;
+}
+
+.professorcard a .search_b{
+    background: url("img/homepage_buttons/search_button_off.png");
+    background-size: contain;
+}
+
+.professorcard a:hover .search_b{
+    background: url("img/homepage_buttons/search_button_on.png");
+    background-size: contain;
+}
+
+.professorcard a .profilepr{
+    background: url("img/homepage_buttons/profile_button_off.png");
+    background-size: contain;
+}
+
+.professorcard a:hover .profilepr{
+    background: url("img/homepage_buttons/profile_button_on.png");
+    background-size: contain;
+}
+
+.professorcard a .signup{
+    background: url("img/homepage_buttons/signup_button_off.png");
+    background-size: contain;
+}
+
+.professorcard a:hover .signup{
+    background: url("img/homepage_buttons/signup_button_on.png");
+    background-size: contain;
+}

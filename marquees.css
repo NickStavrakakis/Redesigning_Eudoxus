@@ -1,0 +1,37 @@
+.marquee {
+    overflow: hidden;
+    position: relative;
+    padding-left: 100%;
+    animation: reduce 22s linear infinite;
+}
+
+.marquee__inner {
+    white-space: nowrap;
+    display: inline-block;
+    animation: scroll 22s linear infinite;
+}
+
+.marquee::before, .marquee::after {
+    z-index: 1;
+    top: 0; left: 0;
+    position: absolute;
+    width: 10px; height: 100%;
+    content: ""; display: block;
+}
+
+.marquee::after {
+    left: auto; right: 0;
+    transform: rotate(180deg);
+}
+
+@keyframes reduce {
+    to {
+        padding-left: 0;
+    }
+}
+
+@keyframes scroll {
+    to {
+        transform: translateX( -100% );
+    }
+}

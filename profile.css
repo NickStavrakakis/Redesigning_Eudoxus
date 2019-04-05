@@ -1,0 +1,49 @@
+.formwrap{
+    margin-top: 0px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.form{
+    margin: auto;
+    text-align: center;
+    list-style: none;
+    font-size: 14px;
+    width: auto;
+}
+
+.form th{
+    padding: 10px;
+}
+
+.form input[type=text], .form input[type=password], select{
+    width: 310px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: myfont;
+    font-size: 14px;
+    outline: none;
+}
+
+.submit{
+    width: 310px;
+    background-color: #0C8CCC;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: myfont;
+    font-size: 14px;
+}
+
+.submit:hover{
+    background-color: #CC7434;
+    transition: .2s;
+}

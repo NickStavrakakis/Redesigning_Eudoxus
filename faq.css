@@ -1,0 +1,55 @@
+.faqwrap{
+    margin: auto;
+    height: auto;
+    padding-bottom: 50px;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.title{
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.accordion{
+    background-color: #0C8CCC;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    transition: .2s;
+    padding: 12px 20px;
+    margin-bottom: 5px;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: myfont;
+}
+
+.accordion.active, .accordion:hover{
+    background-color: #CC7434;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.panel{
+    max-height: 0;
+    width: inherit;
+    margin-bottom: 5px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel p1{
+    text-align: left;
+}

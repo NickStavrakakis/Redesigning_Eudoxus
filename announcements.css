@@ -1,0 +1,29 @@
+.introwrap{
+    margin: auto;
+    padding: auto;
+    display: block;
+    align-items: center;
+}
+
+.announcementswrap{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    font-size: 14px;
+}
+
+.filter select{
+    border: 1px solid rgb(221, 221, 221);
+    text-align: center;
+    border-radius: 4px;
+    font-family: myfont;
+    font-size: 14px;
+}
+
+.category{
+    margin-left: 0px;
+    margin-top: 30px;
+    text-align: left;
+}

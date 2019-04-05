@@ -1,0 +1,113 @@
+.jobcard{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    flex: 0 0 33.333333%;
+}
+
+.jobcard a{
+    color: #0C8CCC;
+    text-decoration: none;
+}
+
+.jobcard img{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: solid;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    width: 200px;
+    height: 200px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: .2s;
+    border-width: 5px;
+    border-color: #0C8CCC;
+}
+
+@media screen and (max-width: 1366px) {
+    .jobcard{
+        width: 300px;
+        height: 230px;
+    }
+    .jobcard img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.jobcard a:hover{
+    transition: .2s;
+    color: #CC7434;
+}
+
+.jobcard a:hover img{
+    transition: .2s;
+    border-width: 5px;
+    border-color: #CC7434;
+}
+
+.jobcard a .students{
+    background: url("img/homepage_buttons/students_button_off.png");
+    background-size: contain;
+}
+
+.jobcard a:hover .students{
+    background: url("img/homepage_buttons/students_button_on.png");
+    background-size: contain;
+}
+
+.jobcard a .secreteriats{
+    background: url("img/homepage_buttons/secreteriats_button_off.png");
+    background-size: contain;
+}
+
+.jobcard a:hover .secreteriats{
+    background: url("img/homepage_buttons/secreteriats_button_on.png");
+    background-size: contain;
+}
+
+.jobcard a .publishers{
+    background: url("img/homepage_buttons/publishers_button_off.png");
+    background-size: contain;
+}
+
+.jobcard a:hover .publishers{
+    background: url("img/homepage_buttons/publishers_button_on.png");
+    background-size: contain;
+}
+
+.jobcard a .professors{
+    background: url("img/homepage_buttons/professors_button_off.png");
+    background-size: contain;
+}
+
+.jobcard a:hover .professors{
+    background: url("img/homepage_buttons/professors_button_on.png");
+    background-size: contain;
+}
+
+.jobcard a .libraries{
+    background: url("img/homepage_buttons/libraries_button_off.png");
+    background-size: contain;
+}
+
+.jobcard a:hover .libraries{
+    background: url("img/homepage_buttons/libraries_button_on.png");
+    background-size: contain;
+}
+
+.jobcard a .marks{
+    background: url("img/homepage_buttons/marks_button_off.png");
+    background-size: contain;
+}
+
+.jobcard a:hover .marks{
+    background: url("img/homepage_buttons/marks_button_on.png");
+    background-size: contain;
+}

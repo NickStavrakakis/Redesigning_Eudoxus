@@ -1,0 +1,37 @@
+.breadcrumbwrap{
+    height: 75px;
+    width: 100%;
+    background-color: #6886A6;
+}
+
+.breadcrumbwrap p{
+    float: left;
+    margin-top: 23px;
+    margin-left: 20vw;
+    color: white;
+    font-size: 20px;
+}
+
+ul.breadcrumb{
+    float: right;
+    margin-top: 0px;
+    margin-right: 20vw;
+    list-style: none;
+    margin-top: 28px;
+}
+ul.breadcrumb li{
+    display: inline;
+    font-size: 13px;
+}
+ul.breadcrumb li+li:before{
+    color: white;
+    content: "/\00a0";
+}
+ul.breadcrumb li, ul.breadcrumb li a{
+    color: white;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover{
+    color: white;
+    text-decoration: underline;
+}
